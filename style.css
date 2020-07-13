@@ -1,0 +1,39 @@
+body {
+    background-color: lightgray;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.bottom-text {
+    position: relative;
+    top: 40px;
+    left: -8px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.top-text {
+    position: relative;
+    left: 210px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.lock-image {
+    height: 15px;
+}
+
+.sign-button {
+    position: relative;
+    margin-right: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0077C5;
+    color: white;
+    border-radius: 10px;
+
+}
