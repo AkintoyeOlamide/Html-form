@@ -1,7 +1,9 @@
 body {
     background-color: lightgray;
+    text-align: center;
 }
 
+/* Nav bar */
 #nav-bar {
     display: flex;
     flex-direction: row;
@@ -36,4 +38,30 @@ body {
     color: white;
     border-radius: 10px;
 
+}
+
+/* images */
+.logo {
+    height: 130px;
+}
+
+.logos {
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.lower-imgs {
+    height: 40px;
+    width: 40px;
+
+}
+
+/* form */
+
+#form {}
+
+form {
+    background-color: white;
 }
