@@ -23,20 +23,20 @@
     <section id="form">
         <img class="logo" src="img/logo-intuit.png" alt="">
         <div class="logos">
-            <img class="lower-imgs" src="img/mint.png" alt="">
-            <h4>mint</h4>
-            <img class="lower-imgs" src="img/qb_thumb.png" alt="">
-            <h4>quickbooks</h4>
-            <img class="lower-imgs" src="img/turbotax.png" alt="">
-            <h4>turbotax</h4>
+            <img class="mint" src="img/mint.png" alt="">
+            <p class="mint-text">mint</p>
+            <img class="thumb" src="img/qb_thumb.png" alt="">
+            <p class="thumb-text">quickbooks</p>
+            <img class="turbotax" src="img/turbotax.png" alt="">
+            <p class="turbotax-text">turbotax</p>
         </div>
-        <form action="">
-            <h3>Create an Intuit account</h3>
-            <p>One account for everything Intuit, including Mint.</p>
-            <p>Learn more</p>
-            <label for="">Email<input type="email"></label>
-            <label for="">Phone (recommended)<input type="text"></label>
-            <label for="">Password<input type="password"></label>
+        <form id="form-element" action="/submit-user-detaisl">
+            <h3 class="form-header">Create an Intuit account</h3>
+            <p class="account">One account for everything Intuit, including Mint.</p>
+            <p class="learn-more">Learn more</p>
+            <label class="email-text" for="">Email<input class="email-input" type="email" required></label>
+            <label for="">Phone (recommended)<input type="text" required></label>
+            <label for="">Password<input type="password" required></label>
             <button><img class="lock-image" src="img/lock.png">Create Account</button>
             <p>By clicking Create account, you agree to our Terms and have read and acknowledge our Privacy Statement.
             </p>

@@ -1,6 +1,7 @@
 body {
     background-color: lightgray;
     text-align: center;
+    overflow: hidden;
 }
 
 /* Nav bar */
@@ -45,23 +46,69 @@ body {
     height: 130px;
 }
 
-.logos {
-
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+.mint {
+    position: relative;
+    height: 38px;
+    right: 170px;
 }
 
-.lower-imgs {
-    height: 40px;
-    width: 40px;
+.mint-text {
+    position: relative;
+    bottom: 35px;
+    right: 120px;
+    font-size: 25px;
+    opacity: 70%;
+}
+
+.thumb {
+    position: relative;
+    height: 38px;
+    bottom: 65px;
+    right: 58px;
+}
+
+.thumb-text {
+    position: relative;
+    bottom: 100px;
+    right: -20px;
+    font-size: 25px;
+    opacity: 70%;
+}
+
+.turbotax {
+    position: relative;
+    height: 38px;
+    bottom: 130px;
+    left: 103px;
 
 }
 
-/* form */
+.turbotax-text {
+    position: relative;
+    bottom: 168px;
+    right: -165px;
+    font-size: 25px;
+    opacity: 70%;
+}
 
-#form {}
+/* form styling */
+/* #form-element {
+    color: #4c4c4c;
+    background: white;
+    height: 631px;
+    width: 400px;
+    border: 0.1px solid #c7c7c7;
+    border-radius: 1px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    position: relative;
+    bottom: 150px;
+    margin: auto;
 
-form {
-    background-color: white;
+} */
+
+/* .form-header {
+    position: relative;
+    top: -100px; */
+
 }
