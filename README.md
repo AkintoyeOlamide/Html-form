@@ -3,7 +3,7 @@
 This project is a replica of the intuit signup form page
 
 ## Desktop
-![screenshot](https://github.com/AkintoyeOlamide/Html-form/blob/Html-forms/screencapture-file-C-Users-Hp-Documents-Microverse-full-time-course-Html-form-index-hmtl-html-2020-07-14-09_31_38.png)
+![screenshot]https://github.com/AkintoyeOlamide/Html-form/blob/Html-forms/screencapture-file-C-Users-Hp-Documents-New-folder-Html-form-index-html-2020-07-14-11_58_42.png)
 ## Built With
 
 - HTML,
