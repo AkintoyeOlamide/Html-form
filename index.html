@@ -1,103 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css-reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="css-reset.css" />
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <!-- Navigation bar -->
+    <nav id="nav-bar">
+      <p class="top-text">Already have a an intuit Account?</p>
+      <a class="bottom-text" href="#">I forgot my user ID or password</a>
 
-<body>
-
-  <!-- Navigation bar -->
-  <nav id="nav-bar">
-    <p class="top-text">Already have a an intuit Account?</p>
-    <a class="bottom-text" href="#">I forgot my user ID or password</a>
-
-    <button class="sign-button" type="button">
-      <img class="lock-image" src="img/lock.png" alt="lock" />
-      Sign in
-    </button>
-  </nav>
-
-  <!-- form section -->
-
-  <section id="form">
-
-    <img class="logo" src="img/logo-intuit.png" alt="img" />
-    <ul class="logos">
-      <li class="mqt">
-        <img class="lower-imgs" src="img/mint.png" alt="img" />
-        <p>mint</p>
-      </li>
-      <li class="mqt">
-        <img class="lower-imgs" src="img/qb_thumb.png" alt="img" />
-        <p>quickbooks</p>
-      </li>
-
-      <li class="mqt">
-        <img class="lower-imgs" src="img/turbotax.png" alt="img" />
-        <p>turbotax</p>
-      </li>
-    </ul>
-    <form action="get">
-      <h3 class="form-header">Create an Intuit account
-      </h3>
-      <p>One account for everything Intuit, including Mint.</p>
-      <p class="learn-more"><a href="">Learn more</a></p>
-      <div class="form-element">
-        <label for="email">Email</label>
-        <input id="email" type="email" />
-      </div>
-      <div class="form-element">
-        <label for="phone">Phone (recommended)</label>
-        <input id="phone" type="tel" />
-      </div>
-      <div class="form-element">
-        <label for="password">Password</label>
-        <input id="password" type="password" />
-      </div>
-
-      <!-- buttons -->
-
-      <button id="create-account" type="submit">
-        <img class="lock-image" src="img/lock.png" alt="lock" />Create Account
+      <button class="sign-button" type="button">
+        <img class="lock-image" src="img/lock.png" alt="lock" />
+        Sign in
       </button>
-      <p>
-        By clicking Create account, you agree to our <a href="">Terms</a> and
-        have read a <a href="">Privacy </a>
-        <br />
-        <a href="#">Statement</a> .
-      </p>
-      <footer class="form-footer">
+    </nav>
+
+    <!-- form section -->
+
+    <section id="form">
+      <img class="logo" src="img/logo-intuit.png" alt="img" />
+      <ul class="logos">
+        <li class="mqt">
+          <img class="lower-imgs" src="img/mint.png" alt="img" />
+          <p>mint</p>
+        </li>
+        <li class="mqt">
+          <img class="lower-imgs" src="img/qb_thumb.png" alt="img" />
+          <p>quickbooks</p>
+        </li>
+
+        <li class="mqt">
+          <img class="lower-imgs" src="img/turbotax.png" alt="img" />
+          <p>turbotax</p>
+        </li>
+      </ul>
+      <form action="get">
+        <h3 class="form-header">Create an Intuit account</h3>
+        <p>One account for everything Intuit, including Mint.</p>
+        <p class="learn-more"><a href="">Learn more</a></p>
+        <div class="form-element">
+          <label for="email">Email</label>
+          <input id="email" type="email" />
+        </div>
+        <div class="form-element">
+          <label for="phone">Phone (recommended)</label>
+          <input id="phone" type="tel" />
+        </div>
+        <div class="form-element">
+          <label for="password">Password</label>
+          <input id="password" type="password" />
+        </div>
+
+        <!-- buttons -->
+
+        <button id="create-account" type="submit">
+          <img class="lock-image" src="img/lock.png" alt="lock" />Create Account
+        </button>
         <p>
-          <span class="recaptcha"> Invisible reCAPTCHA by Google</span> <a href="#">Privacy Policy </a><span
-            class="recaptcha"> and</span>
-          <a href="#">Terms of Use</a> .
+          By clicking Create account, you agree to our <a href="">Terms</a> and
+          have read a <a href="">Privacy </a>
+          <br />
+          <a href="#">Statement</a> .
         </p>
-      </footer>
-    </form>
-  </section>
+        <footer class="form-footer">
+          <p>
+            <span class="recaptcha"> Invisible reCAPTCHA by Google</span>
+            <a href="#">Privacy Policy </a><span class="recaptcha"> and</span>
+            <a href="#">Terms of Use</a> .
+          </p>
+        </footer>
+      </form>
+    </section>
 
+    <!-- footer section -->
+    <footer>
+      <div class="rules">
+        <p><a href="">Legal</a></p>
+        <p><a href="">Privacy</a></p>
+        <p><a href="">Security</a></p>
+      </div>
 
-  <!-- footer section -->
-  <footer>
-    <div class="rules">
-      <p><a href="">Legal</a></p>
-      <p><a href="">Privacy</a></p>
-      <p><a href="">Security</a></p>
-    </div>
-
-    <p>
-      © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
-      TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
-      <br />
-      Terms and conditions, features, support, pricing, and service options
-      subject to change without notice.
-    </p>
-  </footer>
-</body>
-
+      <p>
+        © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        <br />
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
+      </p>
+    </footer>
+  </body>
 </html>

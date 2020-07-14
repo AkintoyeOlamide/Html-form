@@ -126,6 +126,13 @@ a {
   margin-top: 40px;
   background-color: #cfcece;
   padding: 10px 10px 10px 10px;
+<<<<<<< HEAD
+=======
+}
+
+.recaptcha {
+  opacity: 80%;
+>>>>>>> ce28bb6a3125755846adc2235965066d0386b055
 }
 
 .rules {

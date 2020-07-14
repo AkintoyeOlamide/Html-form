@@ -3,7 +3,9 @@
 This project is a replica of the intuit signup form page
 
 ## Desktop
+
 ![screenshot](https://github.com/AkintoyeOlamide/Html-form/blob/Html-forms/screencapture-file-C-Users-Hp-Documents-Microverse-full-time-course-Html-form-index-hmtl-html-2020-07-14-09_31_38.png)
+
 ## Built With
 
 - HTML,
@@ -22,7 +24,7 @@ This project is a replica of the intuit signup form page
 - Github: [Akintoyeolamide](https://github.com/temesghentekeste)
 - Twitter: [@toshactL](https://twitter.com/)
 - Linkedin: [linkedin Akintoye Olamide](https://www.linkedin.com/in/akintoye-olamide-baa80b1a4/)
-- Email:  akintoyeolamide500@gmail.com
+- Email: akintoyeolamide500@gmail.com
 
 👤 **Rick Oburu**
 
@@ -42,7 +44,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- <a href="https://www.w3schools.com/" target="_blank">w3schools.com</a> 
+- <a href="https://www.w3schools.com/" target="_blank">w3schools.com</a>
 - <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>
 - <a href="https://www.stackoverflow.com/" target="_blank">Stackoverflow</a>
 - <a href="https://css-tricks.com/" target="_blank">CSS-TRICKS</a>
