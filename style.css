@@ -1,0 +1,148 @@
+body {
+  background-color: #eceef1;
+  text-align: center;
+}
+
+/* Nav bar */
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.bottom-text {
+  position: relative;
+  top: 40px;
+  left: -8px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.top-text {
+  position: relative;
+  left: 210px;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.lock-image {
+  height: 15px;
+}
+
+.sign-button {
+  position: relative;
+  margin-right: 40px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0077c5;
+  color: white;
+  border-radius: 10px;
+}
+
+.form-header {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.learn-more {
+  margin-bottom: 20px;
+}
+
+/* images */
+.logo {
+  height: 130px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 20px 0 20px;
+}
+
+.lower-imgs {
+  height: 28px;
+  width: 28px;
+  margin-right: 8px;
+}
+
+.mqt {
+  margin: 0 20px 30px 10px;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  color: #797676;
+}
+
+/* form */
+
+form {
+  background-color: white;
+  width: 380px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  justify-content: space-around;
+  box-sizing: border-box;
+  border: 1px solid #cfcece;
+  font-weight: normal;
+  color: #404040;
+  line-height: 25px;
+}
+
+label {
+  display: flex;
+  justify-content: start;
+}
+
+form input {
+  display: flex;
+  justify-content: start;
+  height: 34px;
+  width: 320px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+}
+
+.form-element {
+  margin-bottom: 20px;
+}
+
+#create-account {
+  padding: 8px 12px;
+  background-color: #0077c5;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.form-footer p {
+  font-size: 10px;
+  margin-top: 40px;
+  background-color: #cfcece;
+  padding: 10px 10px 10px 10px;
+}
+
+.rules {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px 0 0 0;
+  text-decoration-color: #404040;
+  cursor: pointer;
+}
+
+.rules p {
+  margin-right: 15px;
+  text-decoration-color: black;
+}
+
+.rules p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
