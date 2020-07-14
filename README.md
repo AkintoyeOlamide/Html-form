@@ -1,4 +1,4 @@
-# Html-form
+# Html-forms
 
 This project is a replica of the intuit signup form page
 
