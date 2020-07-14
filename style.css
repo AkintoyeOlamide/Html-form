@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background-color: #eceef1;
   text-align: center;
 }
 
@@ -112,7 +112,7 @@ form input {
 
 #create-account {
   padding: 8px 12px;
-  background-color: #3a8cc4;
+  background-color: #0077c5;
   margin-bottom: 50px;
 }
 
@@ -124,6 +124,8 @@ a {
 .form-footer p {
   font-size: 12px;
   margin-top: 40px;
+  background-color: #cfcece;
+  padding: 30px 50px 30px 50px ;
 }
 
 .rules {
