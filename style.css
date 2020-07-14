@@ -76,9 +76,6 @@ body {
 
 /* form */
 
-#form {
-}
-
 form {
   background-color: white;
   width: 380px;
@@ -91,7 +88,6 @@ form {
   border: 1px solid #cfcece;
   font-weight: normal;
   color: #404040;
-  /* font-size: 14px; */
   line-height: 25px;
 }
 
@@ -116,7 +112,7 @@ form input {
 
 #create-account {
   padding: 8px 12px;
-  background-color: #0077c5;
+  background-color: #3a8cc4;
   margin-bottom: 50px;
 }
 
@@ -130,18 +126,21 @@ a {
   margin-top: 40px;
 }
 
-.form-footer {
-  background-color: ;
-}
-
 .rules {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 30px 0px 0px 0;
+  text-decoration-color: #404040;
+  cursor: pointer;
+}
+
+.rules p:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .rules p {
   margin-right: 15px;
-  color: black;
+  text-decoration-color: black;
 }
