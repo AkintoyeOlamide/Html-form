@@ -67,7 +67,7 @@ body {
 }
 
 .mqt {
-  margin: 0px 20px 30px 10px;
+  margin: 0 20px 30px 10px;
   display: flex;
   flex-direction: row;
   font-size: 20px;
@@ -130,17 +130,17 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 30px 0px 0px 0;
+  margin: 30px 0 0 0;
   text-decoration-color: #404040;
-  cursor: pointer;
-}
-
-.rules p:hover {
-  text-decoration: underline;
   cursor: pointer;
 }
 
 .rules p {
   margin-right: 15px;
   text-decoration-color: black;
+}
+
+.rules p:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

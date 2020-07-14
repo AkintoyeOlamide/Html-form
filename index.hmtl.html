@@ -17,7 +17,7 @@
     <a class="bottom-text" href="#">I forgot my user ID or password</a>
 
     <button class="sign-button" type="button">
-      <img class="lock-image" src="img/lock.png" />
+      <img class="lock-image" src="img/lock.png" alt="lock" />
       Sign in
     </button>
   </nav>
@@ -25,29 +25,30 @@
   <!-- form section -->
 
   <section id="form">
+
     <img class="logo" src="img/logo-intuit.png" alt="img" />
-    <div class="logos">
-      <div class="mqt">
+    <ul class="logos">
+      <li class="mqt">
         <img class="lower-imgs" src="img/mint.png" alt="img" />
         <p>mint</p>
-      </div>
-      <div class="mqt">
+      </li>
+      <li class="mqt">
         <img class="lower-imgs" src="img/qb_thumb.png" alt="img" />
         <p>quickbooks</p>
-      </div>
+      </li>
 
-      <div class="mqt">
+      <li class="mqt">
         <img class="lower-imgs" src="img/turbotax.png" alt="img" />
         <p>turbotax</p>
-      </div>
-    </div>
+      </li>
+    </ul>
     <form action="get">
       <p class="form-header">Create an Intuit account</p>
       <p>One account for everything Intuit, including Mint.</p>
       <p class="learn-more"><a href="">Learn more</a></p>
       <div class="form-element">
-        <label for="">Email</label>
-        <input type="email" />
+        <label for="email">Email</label>
+        <input id="email" type="email" />
       </div>
       <div class="form-element">
         <label for="">Phone (recommended)</label>
@@ -60,7 +61,7 @@
 
       <!-- buttons -->
 
-      <button id="create-account">
+      <button id="create-account" type="submit">
         <img class="lock-image" src="img/lock.png" />Create Account
       </button>
       <p>
